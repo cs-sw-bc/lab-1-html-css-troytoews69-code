@@ -1,0 +1,18 @@
+{
+  "name": "otaku-haven-demo",
+  "version": "1.0.0",
+  "description": "Simple anime website demo with static server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "svgo": "svgo -f assets/images --config=svgo.config.json",
+    "svgo:series": "svgo -f assets/images/series --config=svgo.config.json",
+    "svgo:characters": "svgo -f assets/images/characters --config=svgo.config.json"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "svgo": "^3.3.2"
+  }
+}

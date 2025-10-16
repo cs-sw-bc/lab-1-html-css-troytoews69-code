@@ -1,0 +1,19 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Optimize SVGs with SVGO",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"run",
+				"svgo"
+			],
+			"isBackground": false,
+			"problemMatcher": [
+				"$eslint-stylish"
+			],
+			"group": "build"
+		}
+	]
+}

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400" role="img" aria-label="Naruto Avatar">
+  <defs>
+    <linearGradient id="orange" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fb923c"/>
+      <stop offset="100%" stop-color="#ea580c"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#orange)"/>
+  <circle cx="200" cy="160" r="60" fill="#fff8e1"/>
+  <rect x="150" y="220" width="100" height="120" rx="16" fill="#fde68a"/>
+  <text x="200" y="370" text-anchor="middle" font-family="Segoe UI, Roboto" font-size="20" fill="#ffffff">Naruto</text>
+</svg>

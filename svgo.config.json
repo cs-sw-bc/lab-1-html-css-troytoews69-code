@@ -1,0 +1,17 @@
+{
+  "multipass": true,
+  "plugins": [
+    {
+      "name": "preset-default",
+      "params": {
+        "overrides": {
+          "removeViewBox": false,
+          "removeHiddenElems": false,
+          "convertPathData": true
+        }
+      }
+    },
+    { "name": "removeDimensions", "active": false },
+    { "name": "sortAttrs", "active": true }
+  ]
+}
